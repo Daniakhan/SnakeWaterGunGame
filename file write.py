@@ -1,0 +1,11 @@
+# f = open("Dania.txt", "w")
+# f.write("Dania your future self is proud of you")
+# f.close()
+# f = open("Dania.txt", "a")
+# a = f.write("Dania your future self is proud of you\n")
+# print(a)
+
+f = open("Dania.txt", "r+")
+print(f.read())
+f.write("Good going girl!\n")
+f.close()
