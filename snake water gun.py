@@ -20,7 +20,8 @@ def con():
     while (i<= 2):
         lst = ["s", "w", "g"]
         choice = random.choice(lst)
-        your_choice = str(input("Press s, w or g: "))
+        your_choice = str(input("Press 's' for 🐍, 'w' for 💦 or 'g' for 🔫: "))
+#       Amazing it is :)
         if your_choice == "s" or your_choice == "g" or your_choice == "w":
             n = i + 1
             i = i + 1
